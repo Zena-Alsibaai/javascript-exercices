@@ -10,17 +10,16 @@
 // You will have time to focus on it later.
 
 (function () {
-    /* Qu'est ce que j'ai ? 
+/*
+Qu'est ce que j'ai ? 
 J'ai l'ID run pour le bouton
-L'ID  
-
-*/
+L'ID  */
 /*
 Qu'est ce que j'ai besoin ?
 D'une fonction d'écoute pour le bouton (run) 
 Aller chercher la date que le visiteur va selectionne
 Afficher l'age de visiteur en foction de la date selectionné
-Aller récupperer les valeurs contenu dans l'ID 
+Aller récupérer les valeurs contenu dans l'ID 
 */ 
         let today = new Date();
         let currentYear = today.getFullYear(); // pour l'année actuelle
@@ -28,15 +27,9 @@ Aller récupperer les valeurs contenu dans l'ID
         let birthMonth = document.getElementById("dob-month").value;
         let birthYear = document.getElementById("dob-year").value;
 
-
         document.getElementById("run").addEventListener("click", function() {
-
-            
             let total = currentYear - birthYear -1 ; 
             alert(total);
-
-
-
         });
   
 
