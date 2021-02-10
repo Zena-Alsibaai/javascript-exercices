@@ -16,8 +16,8 @@
     var secondQuestion= prompt("What's you gender ?");
     var thirdQuestion= prompt("Where do you live ?");
 
-    if((firstQuestion !== "") &(secondQuestion !=="") &(thirdQuestion!== "")) {
-        confirm ("I am" + firstQuestion + "\n I am a " + secondQuestion + "\n I live in " + thirdQuestion);
+    if(( firstQuestion !== "") &(secondQuestion !== "") &(thirdQuestion !== "")) {
+        confirm ("I am" + firstQuestion + "\n I am a " + secondQuestion + "\n I live in " + thirdQuestion); // \n   to make a newline
     }
     else{
         alert("Try again");
