@@ -28,6 +28,10 @@
 
     // your code here
     document.getElementById("run").addEventListener("click", function(){
+        /*
+            La méthode includes () détermine si un tableau inclut une certaine valeur parmi ses entrées, 
+            retournant vrai ou faux selon le cas.
+         */
        
       console.log(fruits.includes ("apple"));
      
