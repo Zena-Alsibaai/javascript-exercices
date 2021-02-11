@@ -27,9 +27,16 @@
     ];
 
     // your code here
-    document.getElementById("run").addEventListener("click", function(){
+
     
-        for(let i = 0; i < fruits.length; i++){         //if you want to run the same code over and over again, each time with a different value and this is the case in arrays
+    document.getElementById("run").addEventListener("click", function(){
+
+  //if you want to run the same code over and over again, each time with a different value and this is the case in arrays
+  /* syntax : for (statement 1; statement 2; statement 3) {
+    code block to be executed 
+  */
+        for(let i = 0; i < fruits.length; i++){         
+  
         console.log(fruits[i]);
         }
     })
