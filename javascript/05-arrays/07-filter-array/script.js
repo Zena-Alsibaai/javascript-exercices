@@ -91,14 +91,17 @@
 
     // your code here
             document.getElementById("run").addEventListener("click", function(){
-       
-                let filter = people.filter (x =>
-                    x.age >= 18
+ /*
+                
+    La méthode filter()Array crée un nouveau tableau avec des éléments qui relèvent d'un critère donné à partir d'un tableau existant:
+*/
+            let filter = people.filter (x =>
+                     x.age >= 18
                     );
-                    console.log(filter);
+                   console.log(filter);
              
        
        
-           })
+            })
 
 })();
