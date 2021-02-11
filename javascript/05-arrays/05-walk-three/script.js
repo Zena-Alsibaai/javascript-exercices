@@ -43,7 +43,7 @@
     document.getElementById("run").addEventListener("click", function(){
        
         people.forEach(element =>{
-            console.log(element.firstname);
+            console.log(element.firstname); // pour aller chercher les prénoms de chaque element (.firstname)
         })
       
 
