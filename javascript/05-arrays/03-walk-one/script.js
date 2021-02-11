@@ -29,7 +29,7 @@
     // your code here
     document.getElementById("run").addEventListener("click", function(){
     
-        for(let i = 0; i < fruits.length; i++){ 
+        for(let i = 0; i < fruits.length; i++){         //if you want to run the same code over and over again, each time with a different value and this is the case in arrays
         console.log(fruits[i]);
         }
     })
