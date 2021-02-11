@@ -11,7 +11,7 @@
 
 (function() {
     // your code here
-    var greet = "Hello World";
+    var greet = "Hello World"; 
 
     alert(greet) ;
     
