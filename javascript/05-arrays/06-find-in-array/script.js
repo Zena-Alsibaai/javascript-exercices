@@ -100,6 +100,7 @@
             else{}
                 
         })
+        // il va aller vérfier chaque element si les conditionnes sont true, il va cherche le mail, et après il va afficher  l'index de l'element
       
 
 
