@@ -28,6 +28,8 @@
 
     // your code here
     /*  
+        The forEach() :
+            method calls a function once for each element in an array, in order.
         Syntax :
             arr.forEach(callback(currentValue[, index[, array]]) {
             execute something
