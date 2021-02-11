@@ -29,7 +29,7 @@
     // your code here
     
      document.getElementById("run").addEventListener("click", function(){
-        console.log(fruits[3]); // indexOf
+        console.log(fruits[3]); // indexOf pour savoir la position d'un element
 
      })
 
