@@ -17,6 +17,7 @@
 
     var myDate = new Date (); //  creates a new date object with the current date and time
     var hours =myDate.getHours();
+    // console.log(hours);
     var message;
 
     if (hours < 17.30){

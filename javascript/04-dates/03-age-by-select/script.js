@@ -21,6 +21,7 @@ Aller chercher la date que le visiteur va selectionne
 Afficher l'age de visiteur en foction de la date selectionné
 Aller récupérer les valeurs contenu dans l'ID 
 */ 
+      //current date
         let today = new Date();
         let currentYear = today.getFullYear(); // pour l'année actuelle
         let birthDate = document.getElementById("dob-day").value;

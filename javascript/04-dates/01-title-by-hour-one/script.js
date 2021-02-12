@@ -15,9 +15,9 @@
 
     // your code here
 
-    var myDate = new Date ();
-    var hours =myDate.getHours();
-    var message;
+    let myDate = new Date (); // la date d'aujourd'hui
+    let hours =myDate.getHours(); // chercher l'heure actuelle
+    let message;
 
     if (hours < 18){
         message = "Hello";

@@ -35,5 +35,13 @@
        
 
      })
+     // ========Autre solution========
+        //  fruits[0]="banana";
+        //  fruits[fruits.length]="kiwi";
+        //  console.log(fruits);
+    // ========Autre solution========
+        /*fruits.splice(0,1,"banana");
+        fruits.splice(-1,1,"kiwi");
+        console.log(fruits);*/
 
 })();
