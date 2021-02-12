@@ -29,5 +29,24 @@
     ];
 
     // your code here
+    /*
+    Je dois créer un tableau vide pour stocker les valeur dedans.
+    trier le tableau fruits pour comparer chaque element et voir s'ils sont en double => j'ai besoin de la méthode 
+    J'ai besoin d'une condition pour les valeurs qui sont en double, et quand on les trouve on va pusher dans l'array vide avec la methode push()
+
+    Je dois stocker les valeurs de Fruits qui sont en double
+
+     */
+    document.getElementById("run").addEventListener("click", function(){
+
+        let arr =[];
+        fruits.forEach((element) =>{ 
+            if ( !(arr.includes(element ))) { // Si tu ne trouve pas l'element dans l'array ARR, tu push. (! est different de)
+                arr.push(element);
+            }   
+        })
+          console.log(arr); 
+    })
+   
 
 })();
