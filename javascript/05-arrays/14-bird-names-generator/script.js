@@ -39,4 +39,19 @@
     ]);
 
     // your code here
+    /*
+    Qu'est ce que j'ai ?
+    * Id pour le bouton "run"
+    * Id target pour la balise <p>
+
+    Qu'est ce que j'ai besoin ?
+    * Eventlistener function pour le bouton 
+    * Manipuler le dom html avec la méthode .innerHTML pour modifier le texte de la balise p en mettant les noms des oiseaux aléatoirement
+    * Une fonction math.random
+    * 
+     */
+    document.getElementById("run").addEventListener("click", function(){
+
+
+    });
 })();
