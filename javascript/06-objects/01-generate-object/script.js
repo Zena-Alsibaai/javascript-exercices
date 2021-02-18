@@ -18,7 +18,6 @@
         city : "Homs",
         country : "Syria",
     };
-
     
     document.getElementById("run").addEventListener("click", function() {
         console.log(personInfo);

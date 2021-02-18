@@ -27,4 +27,9 @@
         user: null,
     };
     // your code here
+    document.getElementById("run").addEventListener("click", function(){
+
+        const object = Object.assign(computers, defaultProps);
+        console.log(object)
+    });
 })();

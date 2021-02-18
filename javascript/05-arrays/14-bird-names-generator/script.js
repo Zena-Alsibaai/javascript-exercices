@@ -48,8 +48,11 @@
     * Eventlistener function pour le bouton 
     * Manipuler le dom html avec la méthode .innerHTML pour modifier le texte de la balise p en mettant les noms des oiseaux aléatoirement
     * Une fonction math.random
-    * 
+    * Une conditions pour l'adjectifs fem
+    * Concatenation 
      */
+
+     
     document.getElementById("run").addEventListener("click", function(){
 
 
