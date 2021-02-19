@@ -22,3 +22,17 @@
         console.log(new Cat("Pixel","7 years"));
     })
 })();
+
+/*
+JavaScript Class Syntax :
+    class ClassName {
+    constructor() { ... }
+    }
+Example
+    class Car {
+        constructor(name, year) {
+        this.name = name;
+        this.year = year;
+  }
+}
+ */
