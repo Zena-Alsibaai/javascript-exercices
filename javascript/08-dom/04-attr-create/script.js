@@ -16,11 +16,11 @@
     // Chercher l'attribute :
     let x = document.getElementById("source").getAttribute("data-image");
     
-    // Créer une image avec createElement() method
+    // Créer une image avec createElement() méthod
     let y = document.createElement("img");
 
     y.src = x;
-    // AppendChild() pour déplacer l'élément
+    // AppendChild() pour ajouter un element enfant dans la cible
     document.getElementById("target").appendChild(y); 
 
     // Supprimer des éléments .remove()
