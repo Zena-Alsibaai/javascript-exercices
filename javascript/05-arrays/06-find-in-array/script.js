@@ -109,4 +109,15 @@
 })();
 
 // filter ()
-// findindex()
+// findindex() 
+
+/* Autre solution :
+
+const dupont = people.filter(person => person.lastname == "Dupont" && person.firstname == "Jean");
+console.log( dupont[0].email);
+
+let index = people.findIndex[(person) => person.email === dupont[0].email];
+console.log(index);
+ */
+
+
