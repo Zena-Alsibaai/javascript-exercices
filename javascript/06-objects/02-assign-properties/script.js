@@ -27,9 +27,12 @@
         user: null,
     };
     // your code here
+    /*
+    Object.assign() est utilisée afin de copier les valeurs de toutes les propriétés directes (non héritées) d'un objet qui sont énumérables sur un autre objet cible. Cette méthode renvoie l'objet cible
+     */
     document.getElementById("run").addEventListener("click", function(){
         computers.forEach(function(element){
-            const object = Object.assign( {}, computers, element);
+            const object = Object.assign( {}, defaultProps, element);
             console.log(object)
         })
     });
