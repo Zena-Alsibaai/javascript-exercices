@@ -90,27 +90,23 @@
     ];
 
     // your code here
-     let ageSum = people.reduce(age);
+     let ageSum = people.reduce(age); //reduce : pour additioner les ages
 
      document.getElementById("run").addEventListener("click", function() {
+
         let age =[];
         people.forEach(element => {
            
-           console.log(element.age)
-           age.push(element.age)
+           console.log(element.age) // afficher les ages
+           age.push(element.age) // push dans l'array vide
            
 
-         })
+         });
            
         console.log(age)
         let ageSum = neo => neo.reduce((a, b) => a + b )
         console.log(ageSum(age));
-
-       
      });
-
-    
-
  })();
 
 

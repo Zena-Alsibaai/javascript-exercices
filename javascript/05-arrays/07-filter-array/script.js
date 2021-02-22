@@ -99,9 +99,6 @@
                      x.age >= 18
                     );
                    console.log(filter);
-             
-       
-       
             })
 
 })();

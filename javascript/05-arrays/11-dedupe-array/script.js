@@ -47,6 +47,9 @@
         })
           console.log(arr); 
     })
+    // 2éme solution
+    // let arr = [...new Set (fruits)]; // ... spread operateur, quand on va inserer un tableau dans un autre. Pour éléminer les crochés
+    // console.log(arr); 
    
 
 })();

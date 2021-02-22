@@ -24,8 +24,8 @@
 
     // your code here
     document.getElementById("run").addEventListener("click", function(){
-        console.log(people.size);
-        console.log(people.has("Alexandre"));
+        console.log(people.size); // .size () est comme .length
+        console.log(people.has("Alexandre")); // .has renvoit Boolean
 
     })
     
