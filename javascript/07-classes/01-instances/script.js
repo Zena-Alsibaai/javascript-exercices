@@ -24,6 +24,7 @@
 })();
 
 /*
+Les classes : c'est pour créer des objets (instance)
 JavaScript Class Syntax :
     class ClassName {
     constructor() { ... }

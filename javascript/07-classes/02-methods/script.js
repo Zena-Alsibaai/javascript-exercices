@@ -13,12 +13,13 @@
     // your code here
     class Person {
         constructor(firstName, lastName){
-            this.firstName = firstName;
+            this.firstName = firstName; // this refere to its own class or object
             this.lastName = lastName;
+            // to call the firstname in the object, we have to use this 
         };
         sayHello(){
             return `Hello ${this.firstName} ${this.lastName}`
-        };
+        };// Create a function for Hello
     };
     const test = new Person("Dyala", "Helwani");
     document.getElementById("run").addEventListener("click", function(){
