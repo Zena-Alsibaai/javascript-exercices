@@ -16,4 +16,19 @@
         }
     }
     // your code here
+    class Cat extends Animal {
+        constructor(name){
+            super()
+            this.name = name
+
+        }
+    }
 })();
+
+/*
+The super() method refers to the parent class.
+
+By calling the super() method in the constructor method, 
+we call the parent's constructor method and gets access 
+to the parent's properties and methods.
+ */

@@ -20,7 +20,7 @@
     };
     // your code here
     document.getElementById("run").addEventListener("click", function(){
-        console.log (Object.keys(person)); 
-        console.log (Object.values(person));
+        console.log (Object.keys(person));  // pour aller chercher les keys de l'objet
+        console.log (Object.values(person));// pour chercher les valeurs de l'objet
     })
 })();

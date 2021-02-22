@@ -28,8 +28,9 @@
     };
     // your code here
     document.getElementById("run").addEventListener("click", function(){
-
-        const object = Object.assign(computers, defaultProps);
-        console.log(object)
+        computers.forEach(function(element){
+            const object = Object.assign( {}, computers, element);
+            console.log(object)
+        })
     });
 })();
