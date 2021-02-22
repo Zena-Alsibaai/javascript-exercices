@@ -11,4 +11,18 @@
 
 (() => {
     // your code here
+    const Person = class { // creat a class
+    
+    } 
+    get name () {
+        return (` ${this.firstName} ${this.lastName}`)
+    }
+    set name (){
+        this.name
+    }
 })();
+/*
+1- creat a class name Person with 2 properties
+2- method getter = return the properties
+3- method setter = transforme the proprties in the objects that already create
+ */

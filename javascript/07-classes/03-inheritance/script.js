@@ -17,18 +17,20 @@
     }
     // your code here
     class Cat extends Animal {
-        constructor(name){
-            super()
-            this.name = name
-
-        }
+      static greeting = "Meow";
     }
+
+
 })();
 
 /*
+Inheritance : for dry concept so for don't repeat uour self we use this.
+
 The super() method refers to the parent class.
 
 By calling the super() method in the constructor method, 
 we call the parent's constructor method and gets access 
 to the parent's properties and methods.
+
+static : we can call it outside the class
  */
