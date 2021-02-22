@@ -18,7 +18,7 @@
     }
     // your code here
     document.getElementById("run").addEventListener("click", function(){
-        console.log(new Cat("Skitty","9 years"));
+        console.log(new Cat("Skitty","9 years"));  // The new keyword is used in javascript to create a object from a constructor function.
         console.log(new Cat("Pixel","7 years"));
     })
 })();
