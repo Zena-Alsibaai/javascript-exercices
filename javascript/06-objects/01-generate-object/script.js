@@ -11,7 +11,7 @@
 
 (() => {
     // your code here
-    let personInfo = {
+    let personInfo = {  // créer un objet avec {} et les keys : values
         firstName : "Zena",
         lastName : "Alsibaai",
         age : 34,

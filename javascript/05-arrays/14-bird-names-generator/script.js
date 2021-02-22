@@ -52,9 +52,31 @@
     * Concatenation 
      */
 
+     /*
+     math.random
+     new Set
+
+      */
+
      
     document.getElementById("run").addEventListener("click", function(){
+
+        function getRandom(number){
+            return Math.floor(Math.random() * number);
+
+        }
+        const adjArray = Array.from(adjectives); // Array.from, pour créer un tableau à partire de set
+        let x = getRandom(birds.length);
+        let y = getRandom(adjArray.length);
+        let bird = birds[x];
+        let adj = adjArray[y];
+
+        bird.fem ?
+        
+        document.getElementById("target").innerHtml = `${bird.name} ${adj}e`:
+        document.getElementById("target").innerHtml = `${bird.name} ${adj}`;
 
 
     });
 })();
+
