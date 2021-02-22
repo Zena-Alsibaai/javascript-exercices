@@ -20,5 +20,16 @@
     ];
 
     // your code here
+    let currentImageIndex = 0;
+    document.getElementById("next").addEventListener("click", function(){
+        currentImageIndex += 1; // currentImageIndex + 1
+        if (currentImageIndex > gallery.length - 1){
+            currentImageIndex = 0
+        }
+        document.querySelector("img").src = gallery[currentImageIndex];
+       
+
+    })
 
 })();
+// http://jsbin.com/dubuhizucu/edit?html,console,output
