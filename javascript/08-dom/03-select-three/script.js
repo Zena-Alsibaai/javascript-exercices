@@ -19,6 +19,7 @@
     for (i = 0; i < x.length; i++) {
         x[i].innerHTML = "Owned";
       }
+      // Une boucle pour répèter des instructions sue tous 
 
 })();
 

@@ -12,5 +12,13 @@
 (function() {
 
     // your code here
+    // Chercher l'image
+    let img = document.querySelector("img");
+    // Chercher image src
+    let source = img.src;
+    //
+    source = img.getAttribute("data-hover"); // l'att qui est dans l'img tag
+    img.onmouseover = () => {img.src = source}
+    
 
 })();

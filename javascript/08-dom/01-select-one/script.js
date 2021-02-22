@@ -12,6 +12,8 @@
 (function() {
 
     // your code here
+    // Chercher l'élément avec son ID 
+    // inner.html pour changer le texte
     document.getElementById("target").innerHTML = "Tadaaam, I succeeded 😜 (●'◡'●)";
 
 })();
