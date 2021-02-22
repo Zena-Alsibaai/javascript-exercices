@@ -17,8 +17,9 @@
     // Chercher image src
     let source = img.src;
     //
-    source = img.getAttribute("data-hover"); // l'att qui est dans l'img tag
-    img.onmouseover = () => {img.src = source}
-    
+    let hover = img.getAttribute("data-hover"); // l'att qui est dans l'img tag
+    img.onmouseover = () => {img.src = hover ;} //
+    img.onmouseout = () => {img.src = source;}
 
 })();
+//autre solution : addEventListener et après onmouseover, onmouseout
