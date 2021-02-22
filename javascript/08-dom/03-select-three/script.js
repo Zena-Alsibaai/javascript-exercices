@@ -12,5 +12,14 @@
 (function() {
 
     // your code here
+    //  Change the text of all elements with class="target"
+    //  find how many elements with class="target", we use the length property
+    
+    var x = document.querySelectorAll(".target");
+    for (i = 0; i < x.length; i++) {
+        x[i].innerHTML = "Owned";
+      }
 
 })();
+
+// https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp
