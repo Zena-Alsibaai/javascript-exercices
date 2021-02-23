@@ -13,7 +13,7 @@
 
     // your code here
     let table = document.createElement("table"); // pour créer le tableau
-    document.querySelector("#target").appendChild(table); // chercher l'ID et ajouoter mon tableau avec la méthode appendChild
+    document.querySelector("#target").appendChild(table); // chercher l'ID et ajouter mon tableau avec la méthode appendChild
 
     // Une boucle pour répèter l'action sue les 10 row
     for(i = 0; i < 10; i++){

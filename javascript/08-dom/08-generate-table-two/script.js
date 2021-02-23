@@ -12,5 +12,16 @@
 (function() {
 
     // your code here
+    let table = document.createElement("table");  // créer le tableau
+    document.querySelector("#target").appendChild(table);//chercher l'ID et ajouter mon tableau avec la méthode appendChild
+
+    for (i=0; i<11; i++)
+    {
+        let row=table.insertRow();
+        let cell= row.insertCell()
+        
+    }
 
 })();
+// let table = "<table>"
+// let row = "<tr>"
