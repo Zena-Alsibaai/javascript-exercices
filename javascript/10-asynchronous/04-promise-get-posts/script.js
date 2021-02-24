@@ -13,8 +13,8 @@
   // your code here
   document.getElementById("run").addEventListener("click", function () {
     window.lib.getPosts().then((array) => {
-      // J'ai appelé la fonctionne getPosts()
-      //then (array, function(){})
+      //Pour appeler le callback de la fonction getPosts, je dois utiliser le mot then
+
       console.log(array);
     });
   });

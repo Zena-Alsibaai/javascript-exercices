@@ -33,13 +33,12 @@
   });
 })();
 
+// 1- function articles(error, array) {
+//     // Je crée la fonctionne callback pour pouvoir l'impriquer dans l'autre fonctionne getPosts
+//     console.log(error);
+//     console.log(array);
+//   }
 
-1- function articles(error, array) {
-    // Je crée la fonctionne callback pour pouvoir l'impriquer dans l'autre fonctionne getPosts
-    console.log(error);
-    console.log(array);
-  }
+// 2-   window.lib.getPostes(articles); // dans ma fonctionne getPoste j'appelle la fonction articles
 
-2-   window.lib.getPostes(articles); // dans ma fonctionne getPoste j'appelle la fonction articles
-
-3-  document.getElementById("run").addEventListener("click", function ()
+// 3-  document.getElementById("run").addEventListener("click", function ()
