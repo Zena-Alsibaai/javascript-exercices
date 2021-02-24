@@ -33,6 +33,7 @@ Qu'est ce que j'ai besoins ?
         // S'il y a une erreur on l'affiche avec console.error()
         console.error(error);
       } else {
+        // Sinon on affiche l'array
         console.log(array);
       }
     });

@@ -10,5 +10,17 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+  // your code here
+  /*
+    1- AddEventListener sur le bouton
+    2- Call getPosts function
+    3- Call getComments function et mettre 2 paraméters (id , promise callback)avec une boucle forEach pour chaque element dans l'array
+    4- Ajouter la propriéter comment dans chaque element dans l'array
+    5- Afficher les elements dans le console
+     */
+
+  // 1-
+  document.getElementById("run").addEventListener("click", function () {
+    // 2-
+  });
 })();

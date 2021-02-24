@@ -10,5 +10,22 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+  // your code here
+  /*
+    1-AddEventListener sur le bouton
+    2-Appeler getPersons function (promis) et l'afficher dans le console
+    3-Utiliser .catch() et console.error()pour afficher l'error
+    La méthode catch() renvoie un objet Promise et ne traite que des cas où la promesse initiale est rejetée.
+     */
+  //1-
+  document.getElementById("run").addEventListener("click", function () {
+    //-2
+    window.lib.getPersons().then((array) => {
+      console.log(array);
+    });
+    window.lib.getPersons().catch((error) => {
+      console.error(error); //console.error() pour afficher le texte de l'error
+    });
+  });
+  //2-
 })();
