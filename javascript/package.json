@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "npx seve -e '*.json,*.md,node_modules,_shared' -p 3000 -i .",
+    "start": "npx seve -e '*.json,*.md,node_modules,_shared' -p 8000 -i .",
     "api": "npx json-server ./_shared/api.json"
   },
   "dependencies": {

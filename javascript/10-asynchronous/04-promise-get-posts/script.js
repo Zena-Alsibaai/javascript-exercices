@@ -10,5 +10,12 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+  // your code here
+  document.getElementById("run").addEventListener("click", function () {
+    window.lib.getPosts().then((array) => {
+      // J'ai appelé la fonctionne getPosts()
+      //then (array, function(){})
+      console.log(array);
+    });
+  });
 })();
