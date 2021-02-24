@@ -19,13 +19,16 @@
      */
   //1-
   document.getElementById("run").addEventListener("click", function () {
-    //-2
+    //2-
     window.lib.getPersons().then((array) => {
       console.log(array);
     });
+    //3-
     window.lib.getPersons().catch((error) => {
       console.error(error); //console.error() pour afficher le texte de l'error
     });
   });
   //2-
 })();
+
+//https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise/catch
