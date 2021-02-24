@@ -11,7 +11,23 @@
 
 (() => {
   // your code here
+  /*
+Qu'est ce que j'ai ?
+- J'ai la fonctionne getPersons
+
+Qu'est ce que j'ai besoins ?
+1- J'ai besoin de mettre 2 paramètres(error,array) dans getPersons
+    window.getPersons(function(error, array){
+
+    })
+2- L'ID pour ajouter addEventListener pour le bouton
+    document.getElementById("run").addEventListener("click",function()
+    })
+3- Condition pour l'error
+4- Utiliser console.error() 
+ */
   document.getElementById("run").addEventListener("click", function () {
+    // callback function with 2 parameter
     window.lib.getPersons(function (error, array) {
       if (error) {
         console.error(error);
@@ -21,19 +37,3 @@
     });
   });
 })();
-
-/*
-Qu'est ce que j'ai ?
-- J'ai la fonctionne getPersons
-
-Qu'est ce que j'ai besoins ?
-1- J'ai besoin de mettre 2 paramètres(error,array) dans getPersons
-    window.detPersons(function(error, array){
-
-    })
-2- L'ID pour ajouter addEventListener pour le bouton
-    document.getElementById("run").addEventListener("click",function()
-    })
-3- Condition pour l'error
-4- Utiliser console.error() 
- */
