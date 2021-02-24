@@ -30,6 +30,7 @@ Qu'est ce que j'ai besoins ?
     // callback function with 2 parameter
     window.lib.getPersons(function (error, array) {
       if (error) {
+        // S'il y a une erreur on l'affiche avec console.error()
         console.error(error);
       } else {
         console.log(array);
