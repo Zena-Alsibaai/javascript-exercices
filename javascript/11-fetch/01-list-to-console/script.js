@@ -23,14 +23,14 @@
   4- Affichez-la dans la console.
    */
   // 1- ajouter le click sur le bouton
-  //   document.getElementById("run").addEventListener("click", () => {
-  //     // 2- fetch méthode avec le url de la ressource
-  //     fetch("http://localhost:3000/heroes")
-  //       // 3- transforme la reponse en format json
-  //       .then((response) => response.json())
-  //       // 4- afficher les résultas dans la console
-  //       .then((data) => console.log(data));
-  //   });
+  // document.getElementById("run").addEventListener("click", () => {
+  //   // 2- fetch méthode avec le url de la ressource
+  //   fetch("http://localhost:3000/heroes")
+  //     // 3- transforme la reponse en format json
+  //     .then((response) => response.json())
+  //     // 4- afficher les résultas dans la console
+  //     .then((data) => console.log(data));
+  // });
 
   document.getElementById("run").addEventListener("click", () => {
     async function fetchData() {
