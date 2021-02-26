@@ -42,3 +42,11 @@
 // 2-   window.lib.getPostes(articles); // dans ma fonctionne getPoste j'appelle la fonction articles
 
 // 3-  document.getElementById("run").addEventListener("click", function ()
+
+// function articles(error, array) {
+//   console.log(error);
+//   console.log(array);
+// }
+// document.getElementById("run").addEventListener("click", function () {
+//   window.lib.getPostes(articles)
+// })

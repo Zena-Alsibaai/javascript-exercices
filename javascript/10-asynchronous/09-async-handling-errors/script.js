@@ -10,5 +10,17 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+  // your code here
+  document.getElementById("run").addEventListener("click", () => {
+    //Je crée la fonction async
+    async function operationAsync() {
+      try {
+        const attenteAsync = await window.lib.getPersons();
+        console.log(attenteAsync);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+    operationAsync();
+  });
 })();

@@ -59,10 +59,18 @@ Qu'est ce que j'ai besoin ?
 - AddEventListener pour le bouton
 - forEach pour chaque item dans l'array
 - Appeler la fonction getComments pour tous les items
-
-
-
-
-Il faut ajouter
-
  */
+
+// ---- Autre solution -------
+
+// document.getElementById("run").addEventListener("click", () => {
+//   window.lib.getPosts(function callback(error, posts) {
+//     posts.forEach((post) => {
+//       window.lib.getComments(post.id, function (error, comments) {
+//         // console.log(comments);
+//         post.comments = comments;
+//       });
+//     });
+//     console.log(posts);
+//   });
+// });
